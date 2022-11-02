@@ -54,7 +54,7 @@ xlabel('days after infection')
 ylabel('VL')
 yline(log10(blq))
 legend({'nom. $\beta$','1/2 nom. $\beta$','1/4 nom. $\beta$','BLQ'})
-title([' ''treated'' ',num2str(t_tr), ' days after infection' ])
+title('''')
 
 n=3;
 tc=cell(n,1);
@@ -73,7 +73,6 @@ xlabel('days after infection')
 ylabel('VL')
 yline(log10(blq))
 legend({'nom. $c$','2 nom. $c$','4 nom. $c$','BLQ'})
-title([' ''treated'' ',num2str(t_tr), ' days after infection' ])
 
 %%%%%%%%%%%%%
 % ib=3;
